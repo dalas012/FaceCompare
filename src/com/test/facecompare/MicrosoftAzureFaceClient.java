@@ -26,7 +26,7 @@ public class MicrosoftAzureFaceClient {
             "https://westeurope.api.cognitive.microsoft.com/face/v1.0/detect?overload=stream";
     private static String END_POINT_VERIFY =
             "https://westeurope.api.cognitive.microsoft.com/face/v1.0/verify";
-    private static String ACCESS_KEY = "9585b194661f473581e017040d025523";
+    private static String ACCESS_KEY = "____________________________________";
     private HttpClient httpClient = HttpClientBuilder.create().build();
 
     public String getFacesSimilarity(File firstImage, File secondImage) throws IOException, URISyntaxException {
